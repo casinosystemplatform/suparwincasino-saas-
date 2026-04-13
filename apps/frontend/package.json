@@ -1,1 +1,21 @@
-
+{
+  "name": "casino-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "3D Casino Frontend (React + WebSocket)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "vite": "^5.0.0"
+  }
+}
