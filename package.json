@@ -1,1 +1,19 @@
-
+{
+  "name": "casino-backend",
+  "version": "1.0.0",
+  "description": "Real-time Casino Backend (Roulette + Poker + Wallet + WebSocket)",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
